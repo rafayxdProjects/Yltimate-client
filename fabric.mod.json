@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "yltimate",
+  "version": "${version}",
+  "name": "Yltimate Client",
+  "description": "A lightweight PvP HUD starter for Minecraft Java 1.21.11.",
+  "authors": ["Yltimate"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.yltimate.client.YltimateClient"] },
+  "mixins": ["yltimate.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
